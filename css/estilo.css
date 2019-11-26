@@ -4,11 +4,24 @@ body {
 }
 
 #outro {
-	background-color: white;
+	color: blue;
+	background-image: url(https://i.makeagif.com/media/7-27-2016/l7B0ZU.gif);
 	margin-left: 25%;
 	padding-bottom: 0.5%;
 }
 
 #outro2{
-	color: #2176ff;
+	
+	color: white;
+
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
