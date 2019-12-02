@@ -1,3 +1,4 @@
+
 .navbar {height: 90px;}
 
 body{ 	background-color: lightgray;}
@@ -33,3 +34,61 @@ body{ 	background-color: lightgray;}
 .text {
 	text-align: left;
 }
+=======
+body {
+	background-image: url("https://i.imgur.com/jGEsdzd.png");
+	background-size: 10%;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#outro {
+	color: blue;
+	background-image: url(https://i.makeagif.com/media/7-27-2016/l7B0ZU.gif);
+	margin-left: 25%;
+	margin-top: 3%;
+	padding-bottom: 0.5%;
+	border-radius: 5px;
+	border: 2px;
+	border-color: rgb(0, 35, 131);
+	border-style: groove;
+	box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+}
+
+#outro2{
+  color: #2176ff;
+
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+
+}
+
