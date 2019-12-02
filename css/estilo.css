@@ -7,13 +7,14 @@ body {
 }
 
 #outro {
-	background-color: white;
+	color: blue;
+	background-image: url(https://i.makeagif.com/media/7-27-2016/l7B0ZU.gif);
 	margin-left: 25%;
 	padding-bottom: 0.5%;
 }
 
 #outro2{
-	color: #2176ff;
+  color: #2176ff;
 
 }
 
@@ -44,5 +45,6 @@ body {
     float: none;
     display: block;
   }
+
 
 }
