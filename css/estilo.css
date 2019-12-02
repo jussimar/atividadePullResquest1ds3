@@ -1,6 +1,9 @@
 body {
 	background-image: url("https://i.imgur.com/jGEsdzd.png");
 	background-size: 10%;
+
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #outro {
@@ -11,17 +14,37 @@ body {
 }
 
 #outro2{
-	
-	color: white;
+  color: #2176ff;
 
 }
 
-#footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.navbar {
   width: 100%;
-  background-color: red;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
   color: white;
-  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+
 }
