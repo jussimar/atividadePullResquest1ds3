@@ -12,3 +12,9 @@ body {
 #outro2{
 	color: #2176ff;
 }
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+     }
